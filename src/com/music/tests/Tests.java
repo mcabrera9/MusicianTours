@@ -1,5 +1,5 @@
 package com.music.tests;
 
-public class MusicTest {
+public class Tests {
 
 }

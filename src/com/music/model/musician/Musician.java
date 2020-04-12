@@ -1,10 +1,8 @@
 package com.music.model.musician;
 import com.music.model.manager.*;
-import com.music.model.subscribers.*;
 
 public abstract class Musician {
 	Manager manager;
-	Subscriber subscriber;
 	String status;
 	
 	Musician(Manager m){

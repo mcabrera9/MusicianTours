@@ -1,7 +1,6 @@
 package com.music.model.subscribers;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observer;
 
 public class SubscriberList implements ISubscriberList {
 	

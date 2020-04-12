@@ -1,6 +1,5 @@
 package com.music.model.musician;
 import com.music.model.manager.*;
-import com.music.model.subscribers.Subscriber;
 
 public class Rapper extends Musician{
 	Manager managerType;

@@ -1,5 +1,5 @@
 package com.music.dal;
 
-public class MusicianDAO {
+public class DAO {
 
 }
