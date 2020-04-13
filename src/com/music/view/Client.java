@@ -20,7 +20,7 @@ public class Client {
 		KatyPerrySubscribers.register(Matt);
 		KatyPerrySubscribers.statusChanged();
 		KatyPerrySubscribers.notifyObservers();
-		System.out.println("Matt knows that Katy perry " + Matt.getStatus());
+		System.out.println("Matt knows that Katy Perry " + Matt.getStatus());
 		
 		SubscriberList DrakeSubscribers = new SubscriberList();
 		DrakeSubscribers.setStatus(Drake.getStatus());
