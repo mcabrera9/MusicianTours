@@ -13,4 +13,5 @@ We are using JUnit for running tests. Make sure to have JUnit imported in order 
 ## Specifications 
 
 ## UML Diagram
+![UML Diagram for Musician Tours P3](/docs/UML.png)
 
