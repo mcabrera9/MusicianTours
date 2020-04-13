@@ -7,7 +7,7 @@ public class Client {
 		//This is the bridge implementation.
 		Musician KatyPerry = new Singer(new OldManager());
 		KatyPerry.onTour();
-		System.out.println("The artist status " + KatyPerry.getStatus());
+		System.out.println("The artist status of Katy Perry: " + KatyPerry.getStatus());
 		
 		Musician Drake = new Rapper(new NewManager());
 		Drake.offTour();

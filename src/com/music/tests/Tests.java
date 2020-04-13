@@ -15,6 +15,8 @@ public class Tests {
 	NewManager newManager = new NewManager();
 	OldManager oldManager = new OldManager();
 	Collaborator collabsub = new Collaborator();
+	Musician KatyPerry = new Singer(new OldManager());
+	Musician Drake = new Rapper(new NewManager());
 	Fan fansub = new Fan();
 	
 	@BeforeEach
@@ -31,12 +33,16 @@ public class Tests {
 	
 	@Test
 	void testOnTourManager() {
-		
+		//test showing when Musician is on tour
+		KatyPerry.onTour();
+		assertEquals("is touring", KatyPerry.getStatus());
 	}
 	
 	@Test
 	void testOffTourManager() {
-		
+		//test showing when Musician is not on tour
+		Drake.offTour();
+		assertEquals("not touring", Drake.getStatus());
 	}
 	
 	@Test
