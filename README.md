@@ -8,7 +8,7 @@ For this project, we have implemented the Observer and Bridge patterns using the
 2. Run as a "Java application" in order to view what prints from the Client side and see which artists are on tour. 
 
 ### Testing: 
-We are using JUnit for running tests. Make sure to have JUnit imported in order to run the tests. 
+We are using JUnit for running tests. Make sure to have JUnit imported in your local environment in order to run the tests. 
 
 ## Specifications 
 
